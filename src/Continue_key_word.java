@@ -8,14 +8,14 @@ public class Continue_key_word {
 //            System.out.println("i= "+i);
 //        }
 
-        while(a<10){//3
+        while(a<10){       // 3
             // a will wait here forever
             a++;
             if(a==3 || a==5){
                 continue;
             }
             System.out.println("a= "+a);
-            a++;
+
         }
     }
 
