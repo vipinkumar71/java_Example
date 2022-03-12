@@ -16,14 +16,14 @@ public static void main(String[] args){
 //        System.out.println("Your number is  "+ number);
 //    }
 
-//    Scanner sc= new Scanner(System.in);
-//    System.out.println("Enter age");
-//    int age = sc.nextInt();
-//    if(age>18 && age<50){
-//        System.out.println("You are adult");
-//    }
-//    else if(age>18 ){
-//        System.out.println("you are not adult");
-//    }
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter age");
+    int age = sc.nextInt();
+    if(age>18 && age<50){
+        System.out.println("You are adult");
+    }
+    else if(age<18 ){
+        System.out.println("you are not adult");
+    }
   }
 }
