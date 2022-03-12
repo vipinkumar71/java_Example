@@ -41,16 +41,17 @@ public class Statements {
         System.out.println("Second result");
         int SecondResult = sc.nextInt();
 
-//        if (firstResult>50 && SecondResult>50){
-//            System.out.println("You got college degree");
-//        }
-//        else{
-//            System.out.println("You can not get college degree ");
-//        }
+        if (firstResult>50 && SecondResult>30){
+            System.out.println("You got college degree");
+        }
+        if(firstResult>50 || SecondResult>60){
+            System.out.println("You got college degree");
+        }
+
 // for && and operator both condition have to be true
 // for || or operator only one of them is true, we can enter in this statement
-        if(firstResult>50 || SecondResult>50){
-            System.out.println("You got college degree");
+        else{
+            System.out.println("You can not get college degree ");
         }
     }
 }
