@@ -4,5 +4,9 @@ public class for_loop {
         for(int i=0; i<10; i++){
             System.out.println("for loop worked " +i+" times");
         }
+//        for (int i=0; i<10; i++){
+//            s++;
+//            System.out.println(s);
+//        }
     }
 }
